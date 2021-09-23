@@ -1,0 +1,40 @@
+.products{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid red;
+    color: white;
+}
+.product-content{
+    padding: 1rem 1rem;
+}
+.product-content h2{
+    padding-bottom: 1rem;
+}
+
+/* ---------------------for button ------------------------*/
+.btn-hover {
+    padding: .5rem 4rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-image: linear-gradient(120deg, #DD2476 , #FF512F);
+}
+
+.btn-hover:hover {
+    background-image: linear-gradient(120deg, #FF512F , #DD2476);
+}
+
+
+
+
+
+@media (max-width:750px){
+    .products{
+        flex-direction: column;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
