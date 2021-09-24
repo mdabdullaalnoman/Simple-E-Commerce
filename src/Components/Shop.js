@@ -22,7 +22,7 @@ const Shop = (props) => {
     return (
         <div>
            {
-               props.product.map(pd => <Products product={pd} key={pd.name} handleProduct= {props.handleProduct}></Products>)
+               props.searchProduct.map(pd => <Products product={pd} key={pd.name} handleProduct= {props.handleProduct}></Products>)
            }
         </div>
     );

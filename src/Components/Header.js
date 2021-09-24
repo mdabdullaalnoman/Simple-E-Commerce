@@ -14,7 +14,7 @@ const header = () => {
                 <a href="/shop">Shop</a>
             </nav>
             <div className="search">
-                <input type="search" name="search" id="search" placeholder="search product..."/>
+                <input type="search"placeholder="search product..."/>
                 <button>search</button>
             </div>
         </div>
